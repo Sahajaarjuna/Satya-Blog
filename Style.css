@@ -1,0 +1,55 @@
+/*kalau langsung pada tag*/
+h2{
+  color: #12b7b0;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 25px;
+
+  }
+
+/*kalau memakai id*/
+#Done{
+ color: green;
+}
+
+/*kalau memakai class*/
+.Social_media{
+  color: darkgreen;
+}
+
+.Menu_web{
+  color: #096a82;
+  text-decoration: none;
+  line-height: 50px;
+  letter-spacing: 20px;
+}
+/*Cara menghias Background dengan satu-satu*/
+body{
+/*  background-color: #068984;
+  background-image: url("Gambar Project/Background web2.jpeg");
+  background-attachment: fixed;
+  background-position: center;*/
+/* atau bisa juga dengan langsung 1 baris*/
+background: #068984 url("Gambar Project/Background web2.jpeg") fixed center ;
+}
+
+body{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+
+/*Cara menghias link website ketika sedang lihat dan ketika diklik*/
+.Menu_web:hover{
+  background:lightblue;
+}
+
+.Menu_web:active{
+  background:lightgreen;
+}
+
+.Link_123{
+  color: #006666
+}
